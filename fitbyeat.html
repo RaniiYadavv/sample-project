@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit by Eat - Indian Health & Wellness Meal Plans</title>
+    <link rel="stylesheet" href="fitbyeat.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Fit by Eat</div>
+        <div class="tagline">Nourish Your Body, Elevate Your Life</div>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#meal-plans">Meal Plans</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <a href="#login" class="login">Login</a>
+                <a href="#signup" class="signup">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Discover the Perfect Indian Meal Plan for Your Healthy Lifestyle</h1>
+                <p>Carefully crafted meal plans inspired by Indian cuisine that balance nutrition, flavor, and wellness. Start your journey to a healthier you today!</p>
+                <a href="#meal-plans" class="cta-button">View Meal Plans</a>
+            </div>
+            <div class="hero-image">
+                <img src="/api/placeholder/600/400" alt="Healthy Indian Meal">
+            </div>
+        </section>
+
+        <section id="meal-plans" class="meal-plan-section">
+            <div class="container">
+                <h2 class="section-title">Today's Meal Plan</h2>
+
+                <div class="meal-day-selector">
+                    <button class="day-button active">Day 1</button>
+                    <button class="day-button">Day 2</button>
+                    <button class="day-button">Day 3</button>
+                    <button class="day-button">Day 4</button>
+                    <button class="day-button">Day 5</button>
+                </div>
+
+                <div class="meal-cards">
+                    <div class="meal-card">
+                        <div class="meal-image breakfast-image"></div>
+                        <div class="meal-content">
+                            <h3 class="meal-title">Ragi & Vegetable Upma</h3>
+                            <p class="meal-description">A nutritious breakfast made with ragi flour, mixed vegetables, and tempered with Indian spices.</p>
+
+                            <div class="health-benefits">
+                                <h4>Health Benefits</h4>
+                                <ul class="benefits-list">
+                                    <li>Rich in calcium and iron</li>
+                                    <li>High in dietary fiber</li>
+                                    <li>Low glycemic index for balanced energy</li>
+                                </ul>
+                            </div>
+
+                            <a href="#" class="view-recipe" data-meal="breakfast">View Recipe</a>
+                        </div>
+                    </div>
+
+                    <div class="meal-card">
+                        <div class="meal-image lunch-image"></div>
+                        <div class="meal-content">
+                            <h3 class="meal-title">Quinoa & Paneer Bowl</h3>
+                            <p class="meal-description">Protein-packed lunch with quinoa, cottage cheese, fresh vegetables, and a light yogurt dressing.</p>
+
+                            <div class="health-benefits">
+                                <h4>Health Benefits</h4>
+                                <ul class="benefits-list">
+                                    <li>Complete protein source</li>
+                                    <li>Rich in antioxidants</li>
+                                    <li>Supports muscle repair and growth</li>
+                                </ul>
+                            </div>
+
+                            <a href="#" class="view-recipe" data-meal="lunch">View Recipe</a>
+                        </div>
+                    </div>
+
+                    <div class="meal-card">
+                        <div class="meal-image dinner-image"></div>
+                        <div class="meal-content">
+                            <h3 class="meal-title">Moong Dal & Vegetable Khichdi</h3>
+                            <p class="meal-description">A balanced one-pot meal with moong dal, brown rice, and seasonal vegetables, seasoned with healing spices.</p>
+
+                            <div class="health-benefits">
+                                <h4>Health Benefits</h4>
+                                <ul class="benefits-list">
+                                    <li>Easy to digest</li>
+                                    <li>Balanced protein and carbohydrates</li>
+                                    <li>Anti-inflammatory properties</li>
+                                </ul>
+                            </div>
+
+                            <a href="#" class="view-recipe" data-meal="dinner">View Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2 class="section-title">Why Choose Fit by Eat?</h2>
+
+                <div class="features-container">
+                    <div class="feature-box">
+                        <div class="feature-icon">🍲</div>
+                        <h3 class="feature-title">Indian Cuisine Focus</h3>
+                        <p class="feature-description">Specialized meal plans that honor Indian culinary traditions while optimizing for nutrition and health.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">📊</div>
+                        <h3 class="feature-title">Nutritionally Balanced</h3>
+                        <p class="feature-description">Each meal plan is crafted by nutrition experts to ensure optimal macronutrient and micronutrient balance.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">⏱</div>
+                        <h3 class="feature-title">Time-Efficient Recipes</h3>
+                        <p class="feature-description">Quick and simple recipes designed for busy lifestyles, without compromising on taste or nutrition.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">🥗</div>
+                        <h3 class="feature-title">Seasonal Ingredients</h3>
+                        <p class="feature-description">Meal plans that adapt to seasonal availability for maximum freshness and nutritional value.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">🌱</div>
+                        <h3 class="feature-title">Dietary Customizations</h3>
+                        <p class="feature-description">Options for vegetarian, vegan, gluten-free, and other dietary preferences or restrictions.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <div class="feature-icon">📱</div>
+                        <h3 class="feature-title">Mobile Friendly</h3>
+                        <p class="feature-description">Access your meal plans on any device, with shopping lists and preparation guidelines at your fingertips.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section">
+            <div class="container">
+                <h2 class="section-title">What Our Members Say</h2>
+
+                <div class="testimonials-container">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"Fit by Eat has transformed my relationship with food. The Indian meal plans are not just healthy but delicious too. I've lost 8 kg in 3 months without feeling like I'm on a diet!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image"></div>
+                            <div class="author-details">
+                                <h4>Priya Sharma</h4>
+                                <p>Member for 6 months</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"As a busy professional, I never had time to plan healthy meals. Fit by Eat has made it so simple with quick recipes that use ingredients I already have in my kitchen. My energy levels have never been better!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image"></div>
+                            <div class="author-details">
+                                <h4>Rahul Patel</h4>
+                                <p>Member for 3 months</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">"The personalized meal plans are a game-changer. I have specific dietary needs, and Fit by Eat has made it easy to eat healthily while respecting these requirements. Plus, the recipes are absolutely delicious!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-image"></div>
+                            <div class="author-details">
+                                <h4>Anjali Desai</h4>
+                                <p>Member for 9 months</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-section">
+            <div class="container">
+                <h2 class="newsletter-title">Get Weekly Meal Plans</h2>
+                <p class="newsletter-description">Subscribe to our newsletter and receive free weekly meal plans, exclusive recipes, and nutrition tips straight to your inbox.</p>
+
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                    <button type="submit" class="newsletter-button">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Fit by Eat</h3>
+                    <p>Your guide to balanced Indian nutrition and wellness through thoughtfully crafted meal plans.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">f</a>
+                        <a href="#" aria-label="Instagram">i</a>
+                        <a href="#" aria-label="Twitter">t</a>
+                        <a href="#" aria-label="YouTube">y</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#meal-plans">Meal Plans</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Nutrition Blog</a></li>
+                        <li><a href="#">Recipe Index</a></li>
+                        <li><a href="#">Cooking Videos</a></li>
+                        <li><a href="#">Health Calculator</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li>Email: hello@fitbyeat.com</li>
+                        <li>Phone: +91 98765 43210</li>
+                        <li>Address: 123 Wellness Street, Mumbai, India</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Fit by Eat. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="recipe-title">Recipe Title</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="recipe-image"></div>
+
+                <div class="recipe-details">
+                    <div class="recipe-detail">
+                        <div class="detail-value">20</div>
+                        <div class="detail-label">Minutes</div>
+                    </div>
+                    <div class="recipe-detail">
+                        <div class="detail-value">350</div>
+                        <div class="detail-label">Calories</div>
+                    </div>
+                    <div class="recipe-detail">
+                        <div class="detail-value">18g</div>
+                        <div class="detail-label">Protein</div>
+                    </div>
+                    <div class="recipe-detail">
+                        <div class="detail-value">45g</div>
+                        <div class="detail-label">Carbs</div>
+                    </div>
+                    <div class="recipe-detail">
+                        <div class="detail-value">12g</div>
+                        <div class="detail-label">Fats</div>
+                    </div>
+                </div>
+
+                <div class="ingredients-list">
+                    <h3>Ingredients</h3>
+                    <ul id="ingredients"></ul>
+                </div>
+
+                <div class="recipe-steps">
+                    <h3>Preparation Steps</h3>
+                    <ol id="steps"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
